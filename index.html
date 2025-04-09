@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ambrosia - Software Development</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: '#121c27',
+            gold: '#d9b669',
+            goldLight: '#e0bd7f',
+            grayLight: '#b8b8b8'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-navy text-gold font-sans">
+
+  <!-- Header -->
+  <header class="flex items-center justify-between px-10 py-6 border-b border-gold/30">
+    <img src="assets/logo.png" alt="Ambrosia Logo" class="h-14">
+    <nav class="space-x-6">
+      <a href="#" class="hover:text-goldLight transition">Home</a>
+      <a href="#" class="hover:text-goldLight transition">Services</a>
+      <a href="#" class="hover:text-goldLight transition">About</a>
+      <a href="#" class="hover:text-goldLight transition">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-28 px-4">
+    <h1 class="text-4xl md:text-5xl font-bold mb-6">Empowering Digital Innovation</h1>
+    <p class="text-lg text-grayLight max-w-xl mx-auto mb-8">
+      At Ambrosia, we craft tailored software solutions that drive success and transform businesses. Your ideas, our code.
+    </p>
+    <a href="#contact" class="inline-block bg-gold text-navy font-semibold px-6 py-3 rounded-xl hover:bg-goldLight transition">
+      Get in Touch
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-8 border-t border-gold/30 text-sm text-grayLight">
+    &copy; 2025 Ambrosia. All rights reserved.
+  </footer>
+
+</body>
+</html>
